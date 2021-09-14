@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jegadeesh_Portfolio</title>
+    <link rel="stylesheet" href="design.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+
+    </script>
+</head>
+
+<body>
+    <p class="mobHeader"> Portfolio </p>
+    <div id="content">
+        <header id="header">
+
+            <ul id="list">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#Profile">Studies</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#Experience">Experience</a></li>
+
+            </ul>
+
+        </header>
+        <img id="icon" src="nav.png" alt=""
+            style="width: 40px;height: 40px;background-color: white;border-radius: 50px;">
+
+
+        <div id="home">
+            <h1>Hi.. Welcome! </h1>
+            <h5> I'm Jegadeesh </h5>
+            <p>Front-End Developer </p>
+        </div>
+        <div id="About">
+            <h2> <img style="margin-right: 8px;" src="user.png" alt="">About Me</h2>
+            <h1> I'M JEGADEESH <br> <span style="font-style: italic; font-size: 15px;padding-left: 7px;">FRONT-END
+                    DEVELOPER</span> </h1><br>
+            <p>I’m hold a BCA degree to utilize my
+                knowledge, abilities, Key skills and Technical
+                skills while being resourceful, innovative and
+                flexible that offers professional growth along
+                with the organization.</p>
+
+            <h4>Residence: <span>Tamilnadu, India</span></h4>
+            <h4>Email: <span style="font-family: Arial;letter-spacing: 1px;">jegadeesh1811@gmail.com</span>
+
+
+                <span> <button id="btn"> <a href="/Jegadeesh_BCA.pdf" download="w3logo">Download Resume
+                        </a> </button></span>
+
+            </h4>
+
+        </div>
+        <div id="Profile" style="height: auto;">
+
+            <h2><img src="edu.png" alt=""> Education</h2>
+            <h4>School:</h4>
+            <p>SSC-Donre my ssc in Rajan Matriculation School and attend Board exam in the Year of 2016 and passed out
+                with overall-87% </p>
+            <p>HSC-Also done my HSC in the same school and continued my studied through out the year in the final Board
+                Exam I appeared in the Year 2018 and passout with overall-88%</p>
+            <h4>Under Graduation</h4>
+            <p>Then I choose BCA as my Under Graduation The American College, Stream is Computer Application.Joined the
+                in the Year of 2018 and passout in thr Year 2021 with overall GPA 7.5/10 on scale..
+            </p>
+        </div>
+
+
+        <div id="skills">
+            <h2><img src="tech.png" alt=""> Techinal Skills</h2>
+
+            <div> <img src="1.png"> <br> HTML</div>
+            <div> <img src="css3.png" alt=""> <br> CSS </div>
+
+            <div><img src="/Bootstrap.png" alt=""> <br> BOOTSTRAP</div>
+
+            <div><img src="/jquery.png" alt=""> <br> JQUERY </div>
+            <div><img src="/js.png" alt=""> <br> JAVASCRIPT </div>
+            <div><img id="c" src="/c++.png" alt=""> <br> C++ </div>
+
+
+            <p>I have a intermediate Programming language on C++, JavaScript jquery and other Technlogies likes HTMl
+                CSS Bootstrap.Also I used these in my project also i like to learn more language as much as i can
+                learn, i am not fast learner but i will learn quicly as soon as possible. </p>
+
+        </div>
+        <div id="project">
+            <h2><img src="proj.png" alt="" style="border-radius: 50%;">
+                Final Year Project:</h2>
+            <h6>Bike Rental: </h6>
+            <p>This My College Final Year Project, The main motto of this project is help the customer to take Bike’s on
+                rent. When we go on any trip
+                outside the town or country we want to be free of time so instead of going through metros or taxis
+                we
+                can prefer to have own vehicle for rent. Using this system customer can only take bike by going to
+                the
+                address provide and the vehicle owner can know the address that a customer is verified or not. The
+                admin
+                can only posting and editing bike details.He/She can post any details regarding bike’s. If the need
+                bike
+                rent he/she must book vehicle before two days from the date he wants, also the user has to mention
+                the
+                duration for how many day he want bike on rent, then admin has the control to approve the order else
+                cancel.
+                <br>
+                In that Project I used Technlogies like HTML CSS Bootstrap JavaScript, as Front end it was done by
+                Me on
+                the other hand which backend was done by one of my friend and the Project language was PHP
+            </p>
+        </div>
+        <div id="Experience">
+            <h2><img src="exp.png" alt=""> Experience</h2>
+            <p>Currently I dont have any experience looking forward to work in this field as Seeking a junior role to
+                enhance and explore my technical knowledge
+                gained at The American College in the last three years. I hold a BCA degree
+                to utilize my knowledge, abilities, Key skills and Technical Skills while
+                being resourceful, innovative and flexible that offers professional growth
+                along with the organization. Also I did single page website like this Portfolio and other company
+                website and online sites for my skills set</p>
+        </div>
+        <center>
+            <small style="text-align: center;">
+
+                Designed by @ Jegadeesh</small>
+        </center>
+    </div>
+
+
+
+    <script>
+
+        $(document).ready(function () {
+
+
+            $("#icon").click(function () {
+                $("#list").slideToggle("slow");
+                $("#list").click(function () {
+                    $("#list").hide("slow");
+                })
+            })
+        })
+
+
+
+
+    </script>
+
+</body>
+
+</html>
